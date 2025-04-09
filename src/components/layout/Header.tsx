@@ -1,13 +1,15 @@
+
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="flex justify-between items-center shadow-[4px_6px_13px_0px_rgba(215,215,215,0.25)] bg-white px-[78px] py-5 max-md:px-10 max-md:py-5 max-sm:p-5">
       <div className="flex items-end">
-        <div className="text-[#001858] text-4xl font-semibold">
+        <Link to="/" className="text-[#001858] text-4xl font-semibold">
           <span>Samar</span>
           <span className="text-[#6246EA] text-lg font-bold">.in</span>
-        </div>
+        </Link>
       </div>
       <nav className="flex gap-[50px] max-sm:hidden">
         <a href="#about" className="text-[#2B2C34] text-xl font-bold">
@@ -25,9 +27,9 @@ const Header = () => {
         <a href="#blogs" className="text-[#2B2C34] text-xl font-bold">
           Blogs
         </a>
-        <a href="#podcast" className="text-[#2B2C34] text-xl font-bold">
+        <Link to="/podcast" className="text-[#2B2C34] text-xl font-bold">
           Podcast
-        </a>
+        </Link>
       </nav>
       <a
         href="#donate"
