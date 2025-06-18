@@ -21,12 +21,7 @@ const Blog = () => {
           </div>
           
           <div className="w-full">
-            <iframe
-              src="https://substack.com/@uxlex/embed"
-              className="w-full min-h-[800px] border-0 rounded-lg"
-              title="Substack Feed"
-              loading="lazy"
-            />
+            <div data-supascribe-embed-id="480238654356" data-supascribe-feed></div>
           </div>
         </main>
         <Footer />
