@@ -2,7 +2,6 @@
 import React from "react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/sections/Footer";
-import Blogs from "@/components/sections/Blogs";
 
 const Blog = () => {
   return (
@@ -20,7 +19,15 @@ const Blog = () => {
               Thoughts on design, technology, and creative processes. Find inspiration and insights from my journey.
             </p>
           </div>
-          <Blogs />
+          
+          <div className="w-full">
+            <iframe
+              src="https://substack.com/@uxlex/embed"
+              className="w-full min-h-[800px] border-0 rounded-lg"
+              title="Substack Feed"
+              loading="lazy"
+            />
+          </div>
         </main>
         <Footer />
       </div>
