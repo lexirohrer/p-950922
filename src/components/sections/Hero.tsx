@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -15,19 +16,19 @@ const Hero = () => {
           <span>and a Storyteller</span>
         </h1>
         <div className="flex gap-4 max-sm:flex-col">
-          <a
-            href="#about"
+          <Link
+            to="/portfolio"
             className="flex items-center gap-3 text-[#F3F2FF] text-2xl font-semibold bg-[#FCA61F] px-10 py-6 rounded-2xl"
           >
-            <span>About me</span>
+            <span>View Portfolio</span>
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5f71713a122f9855978132c7230e8d99ce27627" alt="chevron-right" />
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="/resume"
             className="text-[#4D5566] text-2xl font-semibold px-10 py-6 rounded-2xl border-4 border-solid border-[#4D5566]"
           >
-            Contact Me
-          </a>
+            View Resume
+          </Link>
         </div>
       </div>
       <div className="relative flex-1">

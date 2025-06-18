@@ -12,23 +12,17 @@ const Header = () => {
         </Link>
       </div>
       <nav className="flex gap-[50px] max-sm:hidden">
-        <Link to="/#about" className="text-[#2B2C34] text-xl font-bold">
-          AboutMe
+        <Link to="/" className="text-[#2B2C34] text-xl font-bold">
+          Hello
         </Link>
-        <Link to="/#gallery" className="text-[#2B2C34] text-xl font-bold">
-          Gallery
+        <Link to="/portfolio" className="text-[#2B2C34] text-xl font-bold">
+          Portfolio
         </Link>
-        <Link to="/#projects" className="text-[#2B2C34] text-xl font-bold">
-          Projects
+        <Link to="/resume" className="text-[#2B2C34] text-xl font-bold">
+          Resume
         </Link>
-        <Link to="/#case-studies" className="text-[#2B2C34] text-xl font-bold">
-          caseStudies
-        </Link>
-        <Link to="/#blogs" className="text-[#2B2C34] text-xl font-bold">
-          Blogs
-        </Link>
-        <Link to="/podcast" className="text-[#2B2C34] text-xl font-bold">
-          Podcast
+        <Link to="/blog" className="text-[#2B2C34] text-xl font-bold">
+          Blog
         </Link>
       </nav>
       <a
