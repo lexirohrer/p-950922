@@ -10,25 +10,25 @@ const Footer = () => {
         </div>
         <div className="text-[40px] mb-5">👇</div>
         <div className="flex justify-center gap-5 max-sm:flex-wrap">
-          <a href="#" aria-label="Facebook" className="transition-transform duration-300 hover:rotate-y-180 hover:rotate-z-180">
+          <a href="#" aria-label="Facebook" className="transition-transform duration-300 hover:[transform:rotateY(180deg)_rotateZ(180deg)]">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/271da27022739480abbe6e789e12147b4af38a69" className="w-[50px] h-[50px]" alt="Facebook" />
           </a>
-          <a href="#" aria-label="Instagram" className="transition-transform duration-300 hover:rotate-y-180 hover:rotate-z-180">
+          <a href="#" aria-label="Instagram" className="transition-transform duration-300 hover:[transform:rotateY(180deg)_rotateZ(180deg)]">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/dc91a3c76a8535a4156941061d7eb5e5eb0782a7" className="w-[50px] h-[50px]" alt="Instagram" />
           </a>
-          <a href="#" aria-label="LinkedIn" className="transition-transform duration-300 hover:rotate-y-180 hover:rotate-z-180">
+          <a href="#" aria-label="LinkedIn" className="transition-transform duration-300 hover:[transform:rotateY(180deg)_rotateZ(180deg)]">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/94419f4ba7b276af31c84962b9a61581e8ab7be9" className="w-[50px] h-[50px]" alt="LinkedIn" />
           </a>
-          <a href="#" aria-label="Twitter" className="transition-transform duration-300 hover:rotate-y-180 hover:rotate-z-180">
+          <a href="#" aria-label="Twitter" className="transition-transform duration-300 hover:[transform:rotateY(180deg)_rotateZ(180deg)]">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a66617870a5d8744fc521f3b18c8839e638dd2c" className="w-[50px] h-[50px]" alt="Twitter" />
           </a>
-          <a href="#" aria-label="Discord" className="transition-transform duration-300 hover:rotate-y-180 hover:rotate-z-180">
+          <a href="#" aria-label="Discord" className="transition-transform duration-300 hover:[transform:rotateY(180deg)_rotateZ(180deg)]">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4bd8828636c0b196b1355102997099a5524f92e2" className="w-[50px] h-[50px]" alt="Discord" />
           </a>
-          <a href="#" aria-label="Dribbble" className="transition-transform duration-300 hover:rotate-y-180 hover:rotate-z-180">
+          <a href="#" aria-label="Dribbble" className="transition-transform duration-300 hover:[transform:rotateY(180deg)_rotateZ(180deg)]">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/71fbe29c1990dc95594600631bf18402b4acdc22" className="w-[50px] h-[50px]" alt="Dribbble" />
           </a>
-          <a href="#" aria-label="Youtube" className="transition-transform duration-300 hover:rotate-y-180 hover:rotate-z-180">
+          <a href="#" aria-label="Youtube" className="transition-transform duration-300 hover:[transform:rotateY(180deg)_rotateZ(180deg)]">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a40c00ae29653431f458adcbcaa1abfbf7b18223" className="w-[50px] h-[50px]" alt="Youtube" />
           </a>
         </div>
