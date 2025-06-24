@@ -24,13 +24,10 @@ const CaseStudies = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-7">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
         <CaseStudyCard
           title="QuickBooks Onboarding"
           description="Tailoring accounting software onboarding to different mindsets"
-          context="QuickBooks is an accounting and business management software for small business owners. This redesign was one of the first major projects I drove after joining the QuickBooks onboarding team."
-          role="Research co-facilitator, Design lead for the project"
-          duration="November 2021 - January 2022"
           tools={["Figma", "Figjam", "Usertesting.com", "Google Suite"]}
         >
           <img
@@ -43,9 +40,6 @@ const CaseStudies = () => {
         <CaseStudyCard
           title="QuickBooks Mobile Web Redesign"
           description="Turning broken workflows into intentionally crafted experiences"
-          context="Over a 12 week internship with Intuit, I co-redesigned and helped ship three improved workflows within QuickBooks mobile web. A month after launch, these projects had increased day 7 login 3+ times up 5 percentage pts, mobile web trial-to-sub conversion up 3 percentage pts and mobile web signup to retention up 5.7 percentage pts"
-          role="One of two design interns on a 12 person cross functional team"
-          duration="June - August 2020"
           tools={["Figma", "Photoshop", "QuickBooks design system"]}
         >
           <div className="grid grid-cols-2 gap-5">
@@ -65,9 +59,6 @@ const CaseStudies = () => {
         <CaseStudyCard
           title="Fuse Google Chrome Extension"
           description="Designing a second brain for researchers collecting information"
-          context="Fuse is a Google Chrome extension that helps researchers collect and organize information. In summer 2019, I interned and designed for the Fuse team at Carnegie Mellon's Human Computer Interaction Institute."
-          role="UX research and design intern on a 7 person cross functional team"
-          duration="June - August 2019"
           tools={["Sketch", "Illustrator", "InDesign", "Photoshop", "InVision Studio"]}
         >
           <img
@@ -80,9 +71,6 @@ const CaseStudies = () => {
         <CaseStudyCard
           title="Harvest app"
           description="Putting a seasonal spin on accessible farmers market information"
-          context="Course work for a studio design class on User Centered Design. In a 10 week sprint we went from problem definition to a fully prototyped solution."
-          role="Co UX/UI designer, Co UX researcher, Lead content strategist"
-          duration="September - December 2018"
           tools={["Figma", "Illustrator", "Lucid Chart", "Marvel"]}
         >
           <div className="grid grid-cols-3 gap-5">

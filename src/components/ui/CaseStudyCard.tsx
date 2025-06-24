@@ -29,7 +29,6 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
         
         {tools && tools.length > 0 && (
           <div className="mb-6">
-            <h4 className="text-[#403930] text-lg font-semibold mb-2">Tools</h4>
             <div className="flex flex-wrap gap-2">
               {tools.map((tool, index) => (
                 <span 
