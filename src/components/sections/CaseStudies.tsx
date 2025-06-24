@@ -1,3 +1,4 @@
+
 import React from "react";
 import CaseStudyCard from "../ui/CaseStudyCard";
 
@@ -25,88 +26,80 @@ const CaseStudies = () => {
       </div>
       <div className="flex flex-col gap-7">
         <CaseStudyCard
-          title="Sheepify States"
-          description="Designed some empty state screens in kawaii style for the popular sheepify app"
+          title="QuickBooks Onboarding"
+          description="Tailoring accounting software onboarding to different mindsets"
+          context="QuickBooks is an accounting and business management software for small business owners. This redesign was one of the first major projects I drove after joining the QuickBooks onboarding team."
+          role="Research co-facilitator, Design lead for the project"
+          duration="November 2021 - January 2022"
+          tools={["Figma", "Figjam", "Usertesting.com", "Google Suite"]}
         >
-          <div className="grid grid-cols-[repeat(3,1fr)] gap-5">
+          <img
+            src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop"
+            className="w-full h-auto rounded-3xl"
+            alt="QuickBooks Onboarding"
+          />
+        </CaseStudyCard>
+
+        <CaseStudyCard
+          title="QuickBooks Mobile Web Redesign"
+          description="Turning broken workflows into intentionally crafted experiences"
+          context="Over a 12 week internship with Intuit, I co-redesigned and helped ship three improved workflows within QuickBooks mobile web. A month after launch, these projects had increased day 7 login 3+ times up 5 percentage pts, mobile web trial-to-sub conversion up 3 percentage pts and mobile web signup to retention up 5.7 percentage pts"
+          role="One of two design interns on a 12 person cross functional team"
+          duration="June - August 2020"
+          tools={["Figma", "Photoshop", "QuickBooks design system"]}
+        >
+          <div className="grid grid-cols-2 gap-5">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/711525ec035fbee994da844a0f8b82bce8d5a1b0"
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=300&h=400&fit=crop"
               className="w-full h-auto rounded-2xl"
-              alt="Sheepify 1"
+              alt="Mobile Web Desktop"
             />
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/79be68ad7260509f00f5c1b446b70af828ceaccb"
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=300&h=400&fit=crop"
               className="w-full h-auto rounded-2xl"
-              alt="Sheepify 2"
-            />
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/f1dff94f6ce5405bd71eea369f97592ddd64e23f"
-              className="w-full h-auto rounded-2xl"
-              alt="Sheepify 3"
-            />
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/31315d1b38fa94cb6cf6a6eb44fe513325469f2c"
-              className="w-full h-auto rounded-2xl"
-              alt="Sheepify 4"
-            />
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/547c028bb594af48e58114237bd387e610ec1278"
-              className="w-full h-auto rounded-2xl"
-              alt="Sheepify 5"
-            />
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/19e78c8b3d162d75f70ab414b8b8840c703ded61"
-              className="w-full h-auto rounded-2xl"
-              alt="Sheepify 6"
+              alt="Mobile Web Mobile"
             />
           </div>
         </CaseStudyCard>
 
         <CaseStudyCard
-          title="HoneyBunny"
-          description="A colorful dashboard to manage your fictional projects and team, all in a single place."
+          title="Fuse Google Chrome Extension"
+          description="Designing a second brain for researchers collecting information"
+          context="Fuse is a Google Chrome extension that helps researchers collect and organize information. In summer 2019, I interned and designed for the Fuse team at Carnegie Mellon's Human Computer Interaction Institute."
+          role="UX research and design intern on a 7 person cross functional team"
+          duration="June - August 2019"
+          tools={["Sketch", "Illustrator", "InDesign", "Photoshop", "InVision Studio"]}
         >
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d39290587ac1d2cee381e62ba01d8908d6a7a295"
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
             className="w-full h-auto rounded-3xl"
-            alt="HoneyBunny Dashboard"
+            alt="Fuse Chrome Extension"
           />
         </CaseStudyCard>
 
         <CaseStudyCard
-          title="Memrise Redesign"
-          description="I redesigned the popular language learning app memrise in kawaii style to make it more cute."
+          title="Harvest app"
+          description="Putting a seasonal spin on accessible farmers market information"
+          context="Course work for a studio design class on User Centered Design. In a 10 week sprint we went from problem definition to a fully prototyped solution."
+          role="Co UX/UI designer, Co UX researcher, Lead content strategist"
+          duration="September - December 2018"
+          tools={["Figma", "Illustrator", "Lucid Chart", "Marvel"]}
         >
-          <div className="grid grid-cols-[repeat(3,1fr)] gap-5">
+          <div className="grid grid-cols-3 gap-5">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/67cac3c7226dcfaa0f2db724cee385d498e0470a"
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=200&h=350&fit=crop"
               className="w-full h-auto rounded-2xl"
-              alt="Memrise 1"
+              alt="Harvest App 1"
             />
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/8578d33de3f0c61313bcbd8c7d499284c321d21f"
+              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=200&h=350&fit=crop"
               className="w-full h-auto rounded-2xl"
-              alt="Memrise 2"
+              alt="Harvest App 2"
             />
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/4011e62a0b5da4b61389597c7e895faf89e1ee75"
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=200&h=350&fit=crop"
               className="w-full h-auto rounded-2xl"
-              alt="Memrise 3"
-            />
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/c7d1b5e3cc8d4d52d631e83eeb3ca3e636ba5601"
-              className="w-full h-auto rounded-2xl"
-              alt="Memrise 4"
-            />
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/72d2a81d8578b2c5e4d15fa1a71c430e4d0c8f0f"
-              className="w-full h-auto rounded-2xl"
-              alt="Memrise 5"
-            />
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/38b6602abcfb298e7a3aa086e9e05f8dbee6d7f9"
-              className="w-full h-auto rounded-2xl"
-              alt="Memrise 6"
+              alt="Harvest App 3"
             />
           </div>
         </CaseStudyCard>
