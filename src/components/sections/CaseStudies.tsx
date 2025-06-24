@@ -32,7 +32,7 @@ const CaseStudies = () => {
         >
           <img
             src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop"
-            className="w-full h-auto rounded-3xl"
+            className="w-full h-full object-cover"
             alt="QuickBooks Onboarding"
           />
         </CaseStudyCard>
@@ -42,18 +42,11 @@ const CaseStudies = () => {
           description="Turning broken workflows into intentionally crafted experiences"
           tools={["Figma", "Photoshop", "QuickBooks design system"]}
         >
-          <div className="grid grid-cols-2 gap-5">
-            <img
-              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=300&h=400&fit=crop"
-              className="w-full h-auto rounded-2xl"
-              alt="Mobile Web Desktop"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=300&h=400&fit=crop"
-              className="w-full h-auto rounded-2xl"
-              alt="Mobile Web Mobile"
-            />
-          </div>
+          <img
+            src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop"
+            className="w-full h-full object-cover"
+            alt="QuickBooks Mobile Web Redesign"
+          />
         </CaseStudyCard>
 
         <CaseStudyCard
@@ -63,7 +56,7 @@ const CaseStudies = () => {
         >
           <img
             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
-            className="w-full h-auto rounded-3xl"
+            className="w-full h-full object-cover"
             alt="Fuse Chrome Extension"
           />
         </CaseStudyCard>
@@ -73,23 +66,11 @@ const CaseStudies = () => {
           description="Putting a seasonal spin on accessible farmers market information"
           tools={["Figma", "Illustrator", "Lucid Chart", "Marvel"]}
         >
-          <div className="grid grid-cols-3 gap-5">
-            <img
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=200&h=350&fit=crop"
-              className="w-full h-auto rounded-2xl"
-              alt="Harvest App 1"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=200&h=350&fit=crop"
-              className="w-full h-auto rounded-2xl"
-              alt="Harvest App 2"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=200&h=350&fit=crop"
-              className="w-full h-auto rounded-2xl"
-              alt="Harvest App 3"
-            />
-          </div>
+          <img
+            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop"
+            className="w-full h-full object-cover"
+            alt="Harvest App"
+          />
         </CaseStudyCard>
       </div>
     </section>
